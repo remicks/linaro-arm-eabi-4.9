@@ -4,8 +4,8 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "4.9.1 20140422 (prerelease)")
-(!srcdir  "../.././../gcc/gcc-linaro-4.9-2014.04/gcc")
+(!version  "4.9.1 20140529 (prerelease)")
+(!srcdir  "../.././../gcc/gcc-linaro-4.9-2014.06/gcc")
 (!languages 9 ada c cp fortran go java lto objc objcp)
 (!fileslist 189
  (!srcfile 511  "../libcpp/include/line-map.h")
@@ -309,11 +309,11 @@
               (!srcfileloc  "tree-core.h" 729)
               nil )
              (!pair  "u"
-              (!type union 12 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/tree-core.h:731"
+              (!type union 12 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/tree-core.h:731"
                (!srcfileloc  "tree-core.h" 765)
                (!fields 3 
                 (!pair  "bits"
-                 (!type struct 13 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/tree-core.h:734"
+                 (!type struct 13 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/tree-core.h:734"
                   (!srcfileloc  "tree-core.h" 757)
                   (!fields 16 
                    (!pair  "lang_flag_0"
@@ -6603,7 +6603,7 @@
                                )
                               )
                               (!pair  "x"
-                               (!type struct 321 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/basic-block.h:187"
+                               (!type struct 321 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/basic-block.h:187"
                                 (!srcfileloc  "basic-block.h" 190)
                                 (!fields 2 
                                  (!pair  "head_"
@@ -8399,101 +8399,101 @@
                    (!type struct 404 
                     (!type already_seen 403)
                     gc_maybe_pointed_to "machine_function"
-                    (!srcfileloc  "config/arm/arm.h" 1546)
+                    (!srcfileloc  "config/arm/arm.h" 1551)
                     (!fields 15 
                      (!pair  "eh_epilogue_sp_ofs"
                       (!type already_seen 136)
-                      (!srcfileloc  "config/arm/arm.h" 1514)
+                      (!srcfileloc  "config/arm/arm.h" 1519)
                       nil )
                      (!pair  "far_jump_used"
                       (!type already_seen 9)
-                      (!srcfileloc  "config/arm/arm.h" 1516)
+                      (!srcfileloc  "config/arm/arm.h" 1521)
                       nil )
                      (!pair  "arg_pointer_live"
                       (!type already_seen 9)
-                      (!srcfileloc  "config/arm/arm.h" 1518)
+                      (!srcfileloc  "config/arm/arm.h" 1523)
                       nil )
                      (!pair  "lr_save_eliminated"
                       (!type already_seen 9)
-                      (!srcfileloc  "config/arm/arm.h" 1520)
+                      (!srcfileloc  "config/arm/arm.h" 1525)
                       nil )
                      (!pair  "stack_offsets"
                       (!type struct 405 nil  gc_used "arm_stack_offsets"
-                       (!srcfileloc  "config/arm/arm.h" 1505)
+                       (!srcfileloc  "config/arm/arm.h" 1510)
                        (!fields 7 
                         (!pair  "saved_args"
                          (!type already_seen 9)
-                         (!srcfileloc  "config/arm/arm.h" 1498)
+                         (!srcfileloc  "config/arm/arm.h" 1503)
                          nil )
                         (!pair  "frame"
                          (!type already_seen 9)
-                         (!srcfileloc  "config/arm/arm.h" 1499)
+                         (!srcfileloc  "config/arm/arm.h" 1504)
                          nil )
                         (!pair  "saved_regs"
                          (!type already_seen 9)
-                         (!srcfileloc  "config/arm/arm.h" 1500)
+                         (!srcfileloc  "config/arm/arm.h" 1505)
                          nil )
                         (!pair  "soft_frame"
                          (!type already_seen 9)
-                         (!srcfileloc  "config/arm/arm.h" 1501)
+                         (!srcfileloc  "config/arm/arm.h" 1506)
                          nil )
                         (!pair  "locals_base"
                          (!type already_seen 9)
-                         (!srcfileloc  "config/arm/arm.h" 1502)
+                         (!srcfileloc  "config/arm/arm.h" 1507)
                          nil )
                         (!pair  "outgoing_args"
                          (!type already_seen 9)
-                         (!srcfileloc  "config/arm/arm.h" 1503)
+                         (!srcfileloc  "config/arm/arm.h" 1508)
                          nil )
                         (!pair  "saved_regs_mask"
                          (!type already_seen 9)
-                         (!srcfileloc  "config/arm/arm.h" 1504)
+                         (!srcfileloc  "config/arm/arm.h" 1509)
                          nil )
                        )
                        nil 511 nil nil )
-                      (!srcfileloc  "config/arm/arm.h" 1522)
+                      (!srcfileloc  "config/arm/arm.h" 1527)
                       nil )
                      (!pair  "func_type"
                       (!type already_seen 9)
-                      (!srcfileloc  "config/arm/arm.h" 1524)
+                      (!srcfileloc  "config/arm/arm.h" 1529)
                       nil )
                      (!pair  "uses_anonymous_args"
                       (!type already_seen 9)
-                      (!srcfileloc  "config/arm/arm.h" 1526)
+                      (!srcfileloc  "config/arm/arm.h" 1531)
                       nil )
                      (!pair  "sibcall_blocked"
                       (!type already_seen 9)
-                      (!srcfileloc  "config/arm/arm.h" 1529)
+                      (!srcfileloc  "config/arm/arm.h" 1534)
                       nil )
                      (!pair  "pic_reg"
                       (!type already_seen 136)
-                      (!srcfileloc  "config/arm/arm.h" 1531)
+                      (!srcfileloc  "config/arm/arm.h" 1536)
                       nil )
                      (!pair  "call_via"
                       (!type array 406 nil  gc_used "14" 
                        (!type already_seen 136)
                       )
-                      (!srcfileloc  "config/arm/arm.h" 1535)
+                      (!srcfileloc  "config/arm/arm.h" 1540)
                       nil )
                      (!pair  "return_used_this_function"
                       (!type already_seen 9)
-                      (!srcfileloc  "config/arm/arm.h" 1538)
+                      (!srcfileloc  "config/arm/arm.h" 1543)
                       nil )
                      (!pair  "thumb1_cc_insn"
                       (!type already_seen 136)
-                      (!srcfileloc  "config/arm/arm.h" 1541)
+                      (!srcfileloc  "config/arm/arm.h" 1546)
                       nil )
                      (!pair  "thumb1_cc_op0"
                       (!type already_seen 136)
-                      (!srcfileloc  "config/arm/arm.h" 1542)
+                      (!srcfileloc  "config/arm/arm.h" 1547)
                       nil )
                      (!pair  "thumb1_cc_op1"
                       (!type already_seen 136)
-                      (!srcfileloc  "config/arm/arm.h" 1543)
+                      (!srcfileloc  "config/arm/arm.h" 1548)
                       nil )
                      (!pair  "thumb1_cc_mode"
                       (!type already_seen 9)
-                      (!srcfileloc  "config/arm/arm.h" 1545)
+                      (!srcfileloc  "config/arm/arm.h" 1550)
                       nil )
                     )
                     nil 511 nil nil )
@@ -8578,7 +8578,7 @@
                               (!srcfileloc  "dwarf2out.h" 55)
                               nil )
                              (!pair  "dw_cfi_oprnd1"
-                              (!type union 413 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/dwarf2out.h:47"
+                              (!type union 413 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/dwarf2out.h:47"
                                (!srcfileloc  "dwarf2out.h" 52)
                                (!fields 4 
                                 (!pair  "dw_cfi_reg_num"
@@ -10887,7 +10887,7 @@
                  )
                 )
                 (!pair  "loc"
-                 (!type union 512 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/tree-core.h:1162"
+                 (!type union 512 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/tree-core.h:1162"
                   (!srcfileloc  "tree-core.h" 1162)
                   (!fields 2 
                    (!pair  "stmt"
@@ -12703,7 +12703,7 @@
                        (!srcfileloc  "c/c-decl.c" 212)
                        (!fields 11 
                         (!pair  "u"
-                         (!type union 585 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/c/c-decl.c:198"
+                         (!type union 585 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/c/c-decl.c:198"
                           (!srcfileloc  "c/c-decl.c" 201)
                           (!fields 2 
                            (!pair  "type"
@@ -13722,7 +13722,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 644 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/java/expr.c:2060"nil 
+ (!type struct 644 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/java/expr.c:2060"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -13849,11 +13849,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 655 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/fortran/trans.h:340"nil 
+ (!type struct 655 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/fortran/trans.h:340"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 656 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/fortran/trans.h:328"nil 
+ (!type struct 656 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/fortran/trans.h:328"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -13877,7 +13877,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 662 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/fortran/trans.h:33"nil 
+ (!type struct 662 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/fortran/trans.h:33"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -14150,27 +14150,27 @@
    (!type already_seen 684)
   )
   gc_pointed_to "vec<tree_int,va_gc>"
-  (!srcfileloc  "cp/parser.c" 8668)
+  (!srcfileloc  "cp/parser.c" 8654)
   (!fields 2 
    (!pair  "va_gc"
     (!type already_seen 3)
-    (!srcfileloc  "cp/parser.c" 8668)
+    (!srcfileloc  "cp/parser.c" 8654)
     nil )
    (!pair  "tree_int"
     (!type struct 686 nil  gc_used "tree_int"
-     (!srcfileloc  "cp/parser.c" 8667)
+     (!srcfileloc  "cp/parser.c" 8653)
      (!fields 2 
       (!pair  "t"
        (!type already_seen 5)
-       (!srcfileloc  "cp/parser.c" 8665)
+       (!srcfileloc  "cp/parser.c" 8651)
        nil )
       (!pair  "i"
        (!type already_seen 9)
-       (!srcfileloc  "cp/parser.c" 8666)
+       (!srcfileloc  "cp/parser.c" 8652)
        nil )
      )
      nil 260 nil nil )
-    (!srcfileloc  "cp/parser.c" 8668)
+    (!srcfileloc  "cp/parser.c" 8654)
     nil )
   )
  )
@@ -15128,7 +15128,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 759 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/c/c-parser.c:6077"nil 
+ (!type struct 759 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/c/c-parser.c:6077"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -15255,7 +15255,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 768 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/c-family/c-pragma.c:1169"nil 
+ (!type struct 768 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/c-family/c-pragma.c:1169"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -15787,7 +15787,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 828 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/ada/gcc-interface/decl.c:176"nil 
+ (!type struct 828 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/ada/gcc-interface/decl.c:178"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -17704,7 +17704,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1013 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/config/arm/arm.c:29429"nil 
+ (!type struct 1013 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/config/arm/arm.c:29674"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -17712,30 +17712,30 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1015 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/config/arm/arm.c:22868"nil 
+ (!type struct 1015 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/config/arm/arm.c:23113"nil 
   (!fields 0 )
   nil 0 nil nil )
  
  (!type user_struct 1016 nil  gc_unused "hash_table<libcall_hasher>"
-  (!srcfileloc  "config/arm/arm.c" 4517)
+  (!srcfileloc  "config/arm/arm.c" 4658)
   (!fields 1 
    (!pair  "libcall_hasher"
     (!type struct 1017 nil  gc_unused "libcall_hasher"
-     (!srcfileloc  "config/arm/arm.c" 4517)
+     (!srcfileloc  "config/arm/arm.c" 4658)
      (!fields 0 )
      nil 511 nil nil )
-    (!srcfileloc  "config/arm/arm.c" 4517)
+    (!srcfileloc  "config/arm/arm.c" 4658)
     nil )
   )
  )
  
  (!type already_seen 1017)
  
- (!type struct 1018 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/config/arm/arm.c:2847"nil 
+ (!type struct 1018 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/config/arm/arm.c:2988"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1019 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/config/arm/arm.c:1853"nil 
+ (!type struct 1019 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/config/arm/arm.c:1994"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -18069,7 +18069,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type union 1085 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/tree-eh.c:59"nil 
+ (!type union 1085 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/tree-eh.c:59"nil 
   (!fields 0 )
   nil 0 nil )
  
@@ -18699,7 +18699,7 @@
     (!srcfileloc  "gimple.h" 277)
     nil )
    (!pair  "u"
-    (!type union 1126 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/gimple.h:280"
+    (!type union 1126 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/gimple.h:280"
      (!srcfileloc  "gimple.h" 283)
      (!fields 2 
       (!pair  "fntype"
@@ -18804,11 +18804,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1134 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/varasm.c:4818"nil 
+ (!type struct 1134 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/varasm.c:4818"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1135 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/varasm.c:4574"nil 
+ (!type struct 1135 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/varasm.c:4574"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -18914,7 +18914,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type union 1154 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/mcf.c:344"nil 
+ (!type union 1154 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/mcf.c:344"nil 
   (!fields 0 )
   nil 0 nil )
  
@@ -19830,7 +19830,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1274 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/dwarf2cfi.c:218"nil 
+ (!type struct 1274 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/dwarf2cfi.c:218"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -19842,7 +19842,7 @@
   (!type pointer 1277 nil  gc_unused
    (!type already_seen 1276)
   )
-  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/dwarf2cfi.c:101"nil 
+  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/dwarf2cfi.c:101"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -20259,19 +20259,19 @@
    (!type already_seen 1330)
   )
   gc_pointed_to "constant_descriptor_tree"
-  (!srcfileloc  "cgraph.h" 1336)
+  (!srcfileloc  "cgraph.h" 1337)
   (!fields 3 
    (!pair  "rtl"
     (!type already_seen 136)
-    (!srcfileloc  "cgraph.h" 1327)
+    (!srcfileloc  "cgraph.h" 1328)
     nil )
    (!pair  "value"
     (!type already_seen 5)
-    (!srcfileloc  "cgraph.h" 1330)
+    (!srcfileloc  "cgraph.h" 1331)
     nil )
    (!pair  "hash"
     (!type already_seen 9)
-    (!srcfileloc  "cgraph.h" 1335)
+    (!srcfileloc  "cgraph.h" 1336)
     nil )
   )
   nil 511 nil nil )
@@ -21895,7 +21895,7 @@
  
  (!type already_seen 1324)
  
- (!type struct 1432 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/config/arm/arm.h:1577"nil 
+ (!type struct 1432 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/config/arm/arm.h:1582"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -21983,11 +21983,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1448 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/../libcpp/include/cpplib.h:999"nil 
+ (!type struct 1448 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/../libcpp/include/cpplib.h:999"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1449 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/../libcpp/include/cpplib.h:988"nil 
+ (!type struct 1449 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/../libcpp/include/cpplib.h:988"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -22041,7 +22041,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1458 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/../libcpp/include/line-map.h:627"nil 
+ (!type struct 1458 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.06/gcc/../libcpp/include/line-map.h:627"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -22511,11 +22511,11 @@
   nil )
  (!pair  "vec<tree_int,va_gc>"
   (!type already_seen 684)
-  (!srcfileloc  "cp/parser.c" 8668)
+  (!srcfileloc  "cp/parser.c" 8654)
   nil )
  (!pair  "tree_int"
   (!type already_seen 686)
-  (!srcfileloc  "cp/parser.c" 8667)
+  (!srcfileloc  "cp/parser.c" 8653)
   nil )
  (!pair  "cp_parser_expression_stack"
   (!type array 1470 nil  gc_unused "NUM_PREC_VALUES" 
@@ -23053,7 +23053,7 @@
   nil )
  (!pair  "builtin_type"
   (!type already_seen 9)
-  (!srcfileloc  "ada/gcc-interface/utils.c" 5854)
+  (!srcfileloc  "ada/gcc-interface/utils.c" 5855)
   nil )
  (!pair  "vec<loop_info,va_gc>"
   (!type already_seen 815)
@@ -23081,19 +23081,19 @@
   nil )
  (!pair  "vinfo_t"
   (!type already_seen 827)
-  (!srcfileloc  "ada/gcc-interface/decl.c" 6904)
+  (!srcfileloc  "ada/gcc-interface/decl.c" 6908)
   nil )
  (!pair  "intrin_binding_t"
   (!type already_seen 828)
-  (!srcfileloc  "ada/gcc-interface/decl.c" 180)
+  (!srcfileloc  "ada/gcc-interface/decl.c" 182)
   nil )
  (!pair  "variant_desc"
   (!type already_seen 829)
-  (!srcfileloc  "ada/gcc-interface/decl.c" 125)
+  (!srcfileloc  "ada/gcc-interface/decl.c" 127)
   nil )
  (!pair  "subst_pair"
   (!type already_seen 830)
-  (!srcfileloc  "ada/gcc-interface/decl.c" 110)
+  (!srcfileloc  "ada/gcc-interface/decl.c" 112)
   nil )
  (!pair  "polymorphic_call_target_hash_type"
   (!type already_seen 841)
@@ -23317,47 +23317,47 @@
   nil )
  (!pair  "arm_mangle_map_entry"
   (!type already_seen 1013)
-  (!srcfileloc  "config/arm/arm.c" 29433)
+  (!srcfileloc  "config/arm/arm.c" 29678)
   nil )
  (!pair  "builtin_arg"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 24783)
+  (!srcfileloc  "config/arm/arm.c" 25028)
   nil )
  (!pair  "neon_builtin_datum"
   (!type already_seen 1015)
-  (!srcfileloc  "config/arm/arm.c" 22874)
+  (!srcfileloc  "config/arm/arm.c" 23119)
   nil )
  (!pair  "neon_itype"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 22866)
+  (!srcfileloc  "config/arm/arm.c" 23111)
   nil )
  (!pair  "neon_builtin_type_mode"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 22797)
+  (!srcfileloc  "config/arm/arm.c" 23042)
   nil )
  (!pair  "arm_pragma_enum"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 5793)
+  (!srcfileloc  "config/arm/arm.c" 5934)
   nil )
  (!pair  "libcall_table_type"
   (!type already_seen 1016)
-  (!srcfileloc  "config/arm/arm.c" 4517)
+  (!srcfileloc  "config/arm/arm.c" 4658)
   nil )
  (!pair  "libcall_hasher"
   (!type already_seen 1017)
-  (!srcfileloc  "config/arm/arm.c" 4517)
+  (!srcfileloc  "config/arm/arm.c" 4658)
   nil )
  (!pair  "hash_table<libcall_hasher>"
   (!type already_seen 1016)
-  (!srcfileloc  "config/arm/arm.c" 4517)
+  (!srcfileloc  "config/arm/arm.c" 4658)
   nil )
  (!pair  "isr_attribute_arg"
   (!type already_seen 1018)
-  (!srcfileloc  "config/arm/arm.c" 2851)
+  (!srcfileloc  "config/arm/arm.c" 2992)
   nil )
  (!pair  "arm_fixed_mode_set"
   (!type already_seen 1019)
-  (!srcfileloc  "config/arm/arm.c" 1856)
+  (!srcfileloc  "config/arm/arm.c" 1997)
   nil )
  (!pair  "Mfix"
   (!type already_seen 1023)
@@ -23897,23 +23897,23 @@
   nil )
  (!pair  "cgraph_2node_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 831)
+  (!srcfileloc  "cgraph.h" 832)
   nil )
  (!pair  "cgraph_2edge_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 829)
+  (!srcfileloc  "cgraph.h" 830)
   nil )
  (!pair  "varpool_node_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 827)
+  (!srcfileloc  "cgraph.h" 828)
   nil )
  (!pair  "cgraph_node_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 826)
+  (!srcfileloc  "cgraph.h" 827)
   nil )
  (!pair  "cgraph_edge_hook"
   (!type already_seen 9)
-  (!srcfileloc  "cgraph.h" 825)
+  (!srcfileloc  "cgraph.h" 826)
   nil )
  (!pair  "cgraph_edge_p"
   (!type already_seen 915)
@@ -24247,15 +24247,15 @@
   nil )
  (!pair  "machine_function"
   (!type already_seen 404)
-  (!srcfileloc  "config/arm/arm.h" 1547)
+  (!srcfileloc  "config/arm/arm.h" 1552)
   nil )
  (!pair  "arm_stack_offsets"
   (!type already_seen 405)
-  (!srcfileloc  "config/arm/arm.h" 1506)
+  (!srcfileloc  "config/arm/arm.h" 1511)
   nil )
  (!pair  "arm_cc"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.h" 186)
+  (!srcfileloc  "config/arm/arm.h" 191)
   nil )
  (!pair  "gt_pointer_operator"
   (!type already_seen 9)
@@ -25844,23 +25844,23 @@
   nil )
  (!pair  "generic_parm_count"
   (!type already_seen 9)
-  (!srcfileloc  "cp/parser.c" 31946)
+  (!srcfileloc  "cp/parser.c" 31972)
   nil )
  (!pair  "the_parser"
   (!type already_seen 690)
-  (!srcfileloc  "cp/parser.c" 31369)
+  (!srcfileloc  "cp/parser.c" 31395)
   nil )
  (!pair  "lambda_scope_stack"
   (!type already_seen 685)
-  (!srcfileloc  "cp/parser.c" 8668)
+  (!srcfileloc  "cp/parser.c" 8654)
   nil )
  (!pair  "lambda_count"
   (!type already_seen 9)
-  (!srcfileloc  "cp/parser.c" 8662)
+  (!srcfileloc  "cp/parser.c" 8648)
   nil )
  (!pair  "lambda_scope"
   (!type already_seen 5)
-  (!srcfileloc  "cp/parser.c" 8661)
+  (!srcfileloc  "cp/parser.c" 8647)
   nil )
  (!pair  "cp_parser_context_free_list"
   (!type already_seen 696)
@@ -25919,7 +25919,7 @@
   nil )
  (!pair  "last_error_tinst_level"
   (!type already_seen 725)
-  (!srcfileloc  "cp/pt.c" 8211)
+  (!srcfileloc  "cp/pt.c" 8230)
   nil )
  (!pair  "canonical_template_parms"
   (!type already_seen 45)
@@ -26010,11 +26010,11 @@
   nil )
  (!pair  "java_iface_lookup_fn"
   (!type already_seen 5)
-  (!srcfileloc  "cp/call.c" 7308)
+  (!srcfileloc  "cp/call.c" 7317)
   nil )
  (!pair  "default_arg_context"
   (!type already_seen 45)
-  (!srcfileloc  "cp/call.c" 6481)
+  (!srcfileloc  "cp/call.c" 6490)
   nil )
  (!pair  "unemitted_tinfo_decls"
   (!type already_seen 45)
@@ -26277,13 +26277,13 @@
   (!type array 1575 nil  gc_used "(int) ATTR_LAST" 
    (!type already_seen 5)
   )
-  (!srcfileloc  "ada/gcc-interface/utils.c" 5997)
+  (!srcfileloc  "ada/gcc-interface/utils.c" 5998)
   nil )
  (!pair  "builtin_types"
   (!type array 1576 nil  gc_used "(int) BT_LAST + 1" 
    (!type already_seen 5)
   )
-  (!srcfileloc  "ada/gcc-interface/utils.c" 5857)
+  (!srcfileloc  "ada/gcc-interface/utils.c" 5858)
   nil )
  (!pair  "dummy_global"
   (!type already_seen 5)
@@ -26422,7 +26422,7 @@
   nil )
  (!pair  "annotate_value_cache"
   (!type already_seen 1490)
-  (!srcfileloc  "ada/gcc-interface/decl.c" 130)
+  (!srcfileloc  "ada/gcc-interface/decl.c" 132)
   (!options 
    (!option param_is type 
     (!type already_seen 1402)
@@ -26546,19 +26546,19 @@
   (!type array 1585 nil  gc_used "ARM_BUILTIN_MAX" 
    (!type already_seen 5)
   )
-  (!srcfileloc  "config/arm/arm.c" 23255)
+  (!srcfileloc  "config/arm/arm.c" 23500)
   nil )
  (!pair  "tls_get_addr_libfunc"
   (!type already_seen 136)
-  (!srcfileloc  "config/arm/arm.c" 7135)
+  (!srcfileloc  "config/arm/arm.c" 7271)
   nil )
  (!pair  "pic_labelno"
   (!type already_seen 9)
-  (!srcfileloc  "config/arm/arm.c" 6394)
+  (!srcfileloc  "config/arm/arm.c" 6530)
   nil )
  (!pair  "va_list_type"
   (!type already_seen 5)
-  (!srcfileloc  "config/arm/arm.c" 2180)
+  (!srcfileloc  "config/arm/arm.c" 2321)
   nil )
  (!pair  "stack_chk_fail_decl"
   (!type already_seen 5)
@@ -26570,7 +26570,7 @@
   nil )
  (!pair  "critical_name_mutexes"
   (!type already_seen 1494)
-  (!srcfileloc  "omp-low.c" 8781)
+  (!srcfileloc  "omp-low.c" 8832)
   (!options 
    (!option param2_is type 
     (!type already_seen 5)
@@ -26980,7 +26980,7 @@
   nil )
  (!pair  "block_move_fn"
   (!type already_seen 5)
-  (!srcfileloc  "expr.c" 1443)
+  (!srcfileloc  "expr.c" 1427)
   nil )
  (!pair  "stack_check_libfunc"
   (!type already_seen 136)
@@ -27799,11 +27799,11 @@
   (!type array 1596 nil  gc_used "14" 
    (!type already_seen 136)
   )
-  (!srcfileloc  "config/arm/arm.h" 1552)
+  (!srcfileloc  "config/arm/arm.h" 1557)
   nil )
  (!pair  "arm_target_insn"
   (!type already_seen 136)
-  (!srcfileloc  "config/arm/arm.h" 199)
+  (!srcfileloc  "config/arm/arm.h" 204)
   nil )
  (!pair  "line_table"
   (!type already_seen 1460)
