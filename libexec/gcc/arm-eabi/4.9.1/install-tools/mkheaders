@@ -53,7 +53,7 @@ if [ x$1 != x ] ; then
   prefix=$1
   shift
 else
-  prefix=/home/cl3kener/tmp/linaro-arm-eabi-4.9
+  prefix=/home/cl3kener/android/kernel/TOOLCHAINS/linaro-4.9
 fi
 
 # Allow for alternate isysroot in which to find headers

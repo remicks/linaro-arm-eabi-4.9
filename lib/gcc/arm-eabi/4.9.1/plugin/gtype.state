@@ -4,8 +4,8 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "4.9.1 20140422 (prerelease)")
-(!srcdir  "../.././../gcc/gcc-linaro-4.9-2014.04/gcc")
+(!version  "4.9.1 20140505 (prerelease)")
+(!srcdir  "../.././../gcc/gcc-linaro-4.9-2014.05/gcc")
 (!languages 9 ada c cp fortran go java lto objc objcp)
 (!fileslist 189
  (!srcfile 511  "../libcpp/include/line-map.h")
@@ -309,11 +309,11 @@
               (!srcfileloc  "tree-core.h" 729)
               nil )
              (!pair  "u"
-              (!type union 12 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/tree-core.h:731"
+              (!type union 12 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/tree-core.h:731"
                (!srcfileloc  "tree-core.h" 765)
                (!fields 3 
                 (!pair  "bits"
-                 (!type struct 13 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/tree-core.h:734"
+                 (!type struct 13 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/tree-core.h:734"
                   (!srcfileloc  "tree-core.h" 757)
                   (!fields 16 
                    (!pair  "lang_flag_0"
@@ -6603,7 +6603,7 @@
                                )
                               )
                               (!pair  "x"
-                               (!type struct 321 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/basic-block.h:187"
+                               (!type struct 321 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/basic-block.h:187"
                                 (!srcfileloc  "basic-block.h" 190)
                                 (!fields 2 
                                  (!pair  "head_"
@@ -8578,7 +8578,7 @@
                               (!srcfileloc  "dwarf2out.h" 55)
                               nil )
                              (!pair  "dw_cfi_oprnd1"
-                              (!type union 413 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/dwarf2out.h:47"
+                              (!type union 413 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/dwarf2out.h:47"
                                (!srcfileloc  "dwarf2out.h" 52)
                                (!fields 4 
                                 (!pair  "dw_cfi_reg_num"
@@ -10887,7 +10887,7 @@
                  )
                 )
                 (!pair  "loc"
-                 (!type union 512 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/tree-core.h:1162"
+                 (!type union 512 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/tree-core.h:1162"
                   (!srcfileloc  "tree-core.h" 1162)
                   (!fields 2 
                    (!pair  "stmt"
@@ -12703,7 +12703,7 @@
                        (!srcfileloc  "c/c-decl.c" 212)
                        (!fields 11 
                         (!pair  "u"
-                         (!type union 585 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/c/c-decl.c:198"
+                         (!type union 585 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/c/c-decl.c:198"
                           (!srcfileloc  "c/c-decl.c" 201)
                           (!fields 2 
                            (!pair  "type"
@@ -13722,7 +13722,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 644 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/java/expr.c:2060"nil 
+ (!type struct 644 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/java/expr.c:2060"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -13849,11 +13849,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 655 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/fortran/trans.h:340"nil 
+ (!type struct 655 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/fortran/trans.h:340"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 656 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/fortran/trans.h:328"nil 
+ (!type struct 656 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/fortran/trans.h:328"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -13877,7 +13877,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 662 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/fortran/trans.h:33"nil 
+ (!type struct 662 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/fortran/trans.h:33"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -15128,7 +15128,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 759 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/c/c-parser.c:6077"nil 
+ (!type struct 759 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/c/c-parser.c:6077"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -15255,7 +15255,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 768 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/c-family/c-pragma.c:1169"nil 
+ (!type struct 768 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/c-family/c-pragma.c:1169"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -15787,7 +15787,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 828 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/ada/gcc-interface/decl.c:176"nil 
+ (!type struct 828 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/ada/gcc-interface/decl.c:178"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -17704,7 +17704,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1013 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/config/arm/arm.c:29429"nil 
+ (!type struct 1013 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/config/arm/arm.c:29429"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -17712,7 +17712,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1015 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/config/arm/arm.c:22868"nil 
+ (!type struct 1015 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/config/arm/arm.c:22868"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -17731,11 +17731,11 @@
  
  (!type already_seen 1017)
  
- (!type struct 1018 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/config/arm/arm.c:2847"nil 
+ (!type struct 1018 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/config/arm/arm.c:2847"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1019 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/config/arm/arm.c:1853"nil 
+ (!type struct 1019 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/config/arm/arm.c:1853"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -18069,7 +18069,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type union 1085 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/tree-eh.c:59"nil 
+ (!type union 1085 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/tree-eh.c:59"nil 
   (!fields 0 )
   nil 0 nil )
  
@@ -18699,7 +18699,7 @@
     (!srcfileloc  "gimple.h" 277)
     nil )
    (!pair  "u"
-    (!type union 1126 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/gimple.h:280"
+    (!type union 1126 nil  gc_used "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/gimple.h:280"
      (!srcfileloc  "gimple.h" 283)
      (!fields 2 
       (!pair  "fntype"
@@ -18804,11 +18804,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1134 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/varasm.c:4818"nil 
+ (!type struct 1134 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/varasm.c:4818"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1135 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/varasm.c:4574"nil 
+ (!type struct 1135 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/varasm.c:4574"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -18914,7 +18914,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type union 1154 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/mcf.c:344"nil 
+ (!type union 1154 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/mcf.c:344"nil 
   (!fields 0 )
   nil 0 nil )
  
@@ -19830,7 +19830,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1274 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/dwarf2cfi.c:218"nil 
+ (!type struct 1274 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/dwarf2cfi.c:218"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -19842,7 +19842,7 @@
   (!type pointer 1277 nil  gc_unused
    (!type already_seen 1276)
   )
-  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/dwarf2cfi.c:101"nil 
+  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/dwarf2cfi.c:101"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -21895,7 +21895,7 @@
  
  (!type already_seen 1324)
  
- (!type struct 1432 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/config/arm/arm.h:1577"nil 
+ (!type struct 1432 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/config/arm/arm.h:1577"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -21983,11 +21983,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1448 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/../libcpp/include/cpplib.h:999"nil 
+ (!type struct 1448 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/../libcpp/include/cpplib.h:999"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1449 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/../libcpp/include/cpplib.h:988"nil 
+ (!type struct 1449 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/../libcpp/include/cpplib.h:988"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -22041,7 +22041,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1458 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.04/gcc/../libcpp/include/line-map.h:627"nil 
+ (!type struct 1458 nil  gc_unused "anonymous:../.././../gcc/gcc-linaro-4.9-2014.05/gcc/../libcpp/include/line-map.h:627"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -23081,19 +23081,19 @@
   nil )
  (!pair  "vinfo_t"
   (!type already_seen 827)
-  (!srcfileloc  "ada/gcc-interface/decl.c" 6904)
+  (!srcfileloc  "ada/gcc-interface/decl.c" 6906)
   nil )
  (!pair  "intrin_binding_t"
   (!type already_seen 828)
-  (!srcfileloc  "ada/gcc-interface/decl.c" 180)
+  (!srcfileloc  "ada/gcc-interface/decl.c" 182)
   nil )
  (!pair  "variant_desc"
   (!type already_seen 829)
-  (!srcfileloc  "ada/gcc-interface/decl.c" 125)
+  (!srcfileloc  "ada/gcc-interface/decl.c" 127)
   nil )
  (!pair  "subst_pair"
   (!type already_seen 830)
-  (!srcfileloc  "ada/gcc-interface/decl.c" 110)
+  (!srcfileloc  "ada/gcc-interface/decl.c" 112)
   nil )
  (!pair  "polymorphic_call_target_hash_type"
   (!type already_seen 841)
@@ -25844,11 +25844,11 @@
   nil )
  (!pair  "generic_parm_count"
   (!type already_seen 9)
-  (!srcfileloc  "cp/parser.c" 31946)
+  (!srcfileloc  "cp/parser.c" 31968)
   nil )
  (!pair  "the_parser"
   (!type already_seen 690)
-  (!srcfileloc  "cp/parser.c" 31369)
+  (!srcfileloc  "cp/parser.c" 31391)
   nil )
  (!pair  "lambda_scope_stack"
   (!type already_seen 685)
@@ -26422,7 +26422,7 @@
   nil )
  (!pair  "annotate_value_cache"
   (!type already_seen 1490)
-  (!srcfileloc  "ada/gcc-interface/decl.c" 130)
+  (!srcfileloc  "ada/gcc-interface/decl.c" 132)
   (!options 
    (!option param_is type 
     (!type already_seen 1402)
@@ -26570,7 +26570,7 @@
   nil )
  (!pair  "critical_name_mutexes"
   (!type already_seen 1494)
-  (!srcfileloc  "omp-low.c" 8781)
+  (!srcfileloc  "omp-low.c" 8813)
   (!options 
    (!option param2_is type 
     (!type already_seen 5)
